@@ -1,0 +1,46 @@
+[0.695s] Invoking command in '/root/freefleet_ws/UR5_AMR_CL_4/build/robotic_arms_control': PYTHONPATH=/root/freefleet_ws/UR5_AMR_CL_4/build/robotic_arms_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/freefleet_ws/UR5_AMR_CL_4/install/robotic_arms_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /root/freefleet_ws/UR5_AMR_CL_4/build/robotic_arms_control/build
+[0.961s] running develop
+[1.153s] Removing /root/freefleet_ws/UR5_AMR_CL_4/install/robotic_arms_control/lib/python3.12/site-packages/robotic-arms-control.egg-link (link to .)
+[1.179s] Invoked command in '/root/freefleet_ws/UR5_AMR_CL_4/build/robotic_arms_control' returned '0': PYTHONPATH=/root/freefleet_ws/UR5_AMR_CL_4/build/robotic_arms_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/freefleet_ws/UR5_AMR_CL_4/install/robotic_arms_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /root/freefleet_ws/UR5_AMR_CL_4/build/robotic_arms_control/build
+[1.180s] Invoking command in '/root/freefleet_ws/UR5_AMR_CL_4/src/robotic_arms_control': PYTHONPATH=/root/freefleet_ws/UR5_AMR_CL_4/build/robotic_arms_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/freefleet_ws/UR5_AMR_CL_4/install/robotic_arms_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robotic_arms_control build --build-base /root/freefleet_ws/UR5_AMR_CL_4/build/robotic_arms_control/build install --record /root/freefleet_ws/UR5_AMR_CL_4/build/robotic_arms_control/install.log --single-version-externally-managed install_data --force
+[1.400s] running egg_info
+[1.417s] writing ../../build/robotic_arms_control/robotic_arms_control.egg-info/PKG-INFO
+[1.417s] writing dependency_links to ../../build/robotic_arms_control/robotic_arms_control.egg-info/dependency_links.txt
+[1.417s] writing entry points to ../../build/robotic_arms_control/robotic_arms_control.egg-info/entry_points.txt
+[1.417s] writing requirements to ../../build/robotic_arms_control/robotic_arms_control.egg-info/requires.txt
+[1.417s] writing top-level names to ../../build/robotic_arms_control/robotic_arms_control.egg-info/top_level.txt
+[1.452s] reading manifest file '../../build/robotic_arms_control/robotic_arms_control.egg-info/SOURCES.txt'
+[1.453s] writing manifest file '../../build/robotic_arms_control/robotic_arms_control.egg-info/SOURCES.txt'
+[1.453s] running build
+[1.453s] running build_py
+[1.453s] creating /root/freefleet_ws/UR5_AMR_CL_4/build/robotic_arms_control/build
+[1.453s] creating /root/freefleet_ws/UR5_AMR_CL_4/build/robotic_arms_control/build/lib
+[1.453s] creating /root/freefleet_ws/UR5_AMR_CL_4/build/robotic_arms_control/build/lib/robotic_arms_control
+[1.453s] copying robotic_arms_control/__init__.py -> /root/freefleet_ws/UR5_AMR_CL_4/build/robotic_arms_control/build/lib/robotic_arms_control
+[1.454s] running install
+[1.458s] running install_lib
+[1.476s] creating /root/freefleet_ws/UR5_AMR_CL_4/install/robotic_arms_control/lib/python3.12/site-packages/robotic_arms_control
+[1.476s] copying /root/freefleet_ws/UR5_AMR_CL_4/build/robotic_arms_control/build/lib/robotic_arms_control/__init__.py -> /root/freefleet_ws/UR5_AMR_CL_4/install/robotic_arms_control/lib/python3.12/site-packages/robotic_arms_control
+[1.476s] byte-compiling /root/freefleet_ws/UR5_AMR_CL_4/install/robotic_arms_control/lib/python3.12/site-packages/robotic_arms_control/__init__.py to __init__.cpython-312.pyc
+[1.477s] running install_data
+[1.477s] copying resource/robotic_arms_control -> /root/freefleet_ws/UR5_AMR_CL_4/install/robotic_arms_control/share/ament_index/resource_index/packages
+[1.477s] copying package.xml -> /root/freefleet_ws/UR5_AMR_CL_4/install/robotic_arms_control/share/robotic_arms_control
+[1.477s] copying launch/controller_spawner_1.launch.py -> /root/freefleet_ws/UR5_AMR_CL_4/install/robotic_arms_control/share/robotic_arms_control/launch
+[1.477s] copying launch/gazebo_bringup_ur5.launch.py -> /root/freefleet_ws/UR5_AMR_CL_4/install/robotic_arms_control/share/robotic_arms_control/launch
+[1.477s] copying launch/rviz_bringup.launch.py -> /root/freefleet_ws/UR5_AMR_CL_4/install/robotic_arms_control/share/robotic_arms_control/launch
+[1.478s] copying launch/controller_spawner_ur5.launch.py -> /root/freefleet_ws/UR5_AMR_CL_4/install/robotic_arms_control/share/robotic_arms_control/launch
+[1.478s] copying urdf/ur5.urdf -> /root/freefleet_ws/UR5_AMR_CL_4/install/robotic_arms_control/share/robotic_arms_control/urdf
+[1.478s] copying urdf/ur51.urdf -> /root/freefleet_ws/UR5_AMR_CL_4/install/robotic_arms_control/share/robotic_arms_control/urdf
+[1.478s] copying urdf/ur5jointlimitedrobot.urdf -> /root/freefleet_ws/UR5_AMR_CL_4/install/robotic_arms_control/share/robotic_arms_control/urdf
+[1.478s] copying urdf/ur5robot.urdf -> /root/freefleet_ws/UR5_AMR_CL_4/install/robotic_arms_control/share/robotic_arms_control/urdf
+[1.478s] copying config/ur5_itc_controller.yaml -> /root/freefleet_ws/UR5_AMR_CL_4/install/robotic_arms_control/share/robotic_arms_control/config
+[1.479s] copying config/ur5_pos_controller.yaml -> /root/freefleet_ws/UR5_AMR_CL_4/install/robotic_arms_control/share/robotic_arms_control/config
+[1.479s] running install_egg_info
+[1.497s] Copying ../../build/robotic_arms_control/robotic_arms_control.egg-info to /root/freefleet_ws/UR5_AMR_CL_4/install/robotic_arms_control/lib/python3.12/site-packages/robotic_arms_control-0.0.0-py3.12.egg-info
+[1.587s] running install_scripts
+[1.716s] Installing joint_state_controller_test script to /root/freefleet_ws/UR5_AMR_CL_4/install/robotic_arms_control/lib/robotic_arms_control
+[1.716s] Installing jtc_multi_goals script to /root/freefleet_ws/UR5_AMR_CL_4/install/robotic_arms_control/lib/robotic_arms_control
+[1.716s] Installing kinematic_solver_IK script to /root/freefleet_ws/UR5_AMR_CL_4/install/robotic_arms_control/lib/robotic_arms_control
+[1.716s] Installing transform_publisher script to /root/freefleet_ws/UR5_AMR_CL_4/install/robotic_arms_control/lib/robotic_arms_control
+[1.716s] writing list of installed files to '/root/freefleet_ws/UR5_AMR_CL_4/build/robotic_arms_control/install.log'
+[1.736s] Invoked command in '/root/freefleet_ws/UR5_AMR_CL_4/src/robotic_arms_control' returned '0': PYTHONPATH=/root/freefleet_ws/UR5_AMR_CL_4/build/robotic_arms_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/freefleet_ws/UR5_AMR_CL_4/install/robotic_arms_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robotic_arms_control build --build-base /root/freefleet_ws/UR5_AMR_CL_4/build/robotic_arms_control/build install --record /root/freefleet_ws/UR5_AMR_CL_4/build/robotic_arms_control/install.log --single-version-externally-managed install_data --force

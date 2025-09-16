@@ -1,0 +1,5 @@
+[console_scripts]
+joint_state_controller_test = robotic_arms_control.joint_state_controller_test:main
+jtc_multi_goals = robotic_arms_control.jtc_multi_goals:main
+kinematic_solver_IK = robotic_arms_control.kinematic_solver_IK:main
+transform_publisher = robotic_arms_control.transform_publisher:main

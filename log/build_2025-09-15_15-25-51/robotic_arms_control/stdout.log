@@ -1,0 +1,42 @@
+running develop
+Removing /root/freefleet_ws/UR5_AMR_CL_4/install/robotic_arms_control/lib/python3.12/site-packages/robotic-arms-control.egg-link (link to .)
+running egg_info
+writing ../../build/robotic_arms_control/robotic_arms_control.egg-info/PKG-INFO
+writing dependency_links to ../../build/robotic_arms_control/robotic_arms_control.egg-info/dependency_links.txt
+writing entry points to ../../build/robotic_arms_control/robotic_arms_control.egg-info/entry_points.txt
+writing requirements to ../../build/robotic_arms_control/robotic_arms_control.egg-info/requires.txt
+writing top-level names to ../../build/robotic_arms_control/robotic_arms_control.egg-info/top_level.txt
+reading manifest file '../../build/robotic_arms_control/robotic_arms_control.egg-info/SOURCES.txt'
+writing manifest file '../../build/robotic_arms_control/robotic_arms_control.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /root/freefleet_ws/UR5_AMR_CL_4/build/robotic_arms_control/build
+creating /root/freefleet_ws/UR5_AMR_CL_4/build/robotic_arms_control/build/lib
+creating /root/freefleet_ws/UR5_AMR_CL_4/build/robotic_arms_control/build/lib/robotic_arms_control
+copying robotic_arms_control/__init__.py -> /root/freefleet_ws/UR5_AMR_CL_4/build/robotic_arms_control/build/lib/robotic_arms_control
+running install
+running install_lib
+creating /root/freefleet_ws/UR5_AMR_CL_4/install/robotic_arms_control/lib/python3.12/site-packages/robotic_arms_control
+copying /root/freefleet_ws/UR5_AMR_CL_4/build/robotic_arms_control/build/lib/robotic_arms_control/__init__.py -> /root/freefleet_ws/UR5_AMR_CL_4/install/robotic_arms_control/lib/python3.12/site-packages/robotic_arms_control
+byte-compiling /root/freefleet_ws/UR5_AMR_CL_4/install/robotic_arms_control/lib/python3.12/site-packages/robotic_arms_control/__init__.py to __init__.cpython-312.pyc
+running install_data
+copying resource/robotic_arms_control -> /root/freefleet_ws/UR5_AMR_CL_4/install/robotic_arms_control/share/ament_index/resource_index/packages
+copying package.xml -> /root/freefleet_ws/UR5_AMR_CL_4/install/robotic_arms_control/share/robotic_arms_control
+copying launch/controller_spawner_1.launch.py -> /root/freefleet_ws/UR5_AMR_CL_4/install/robotic_arms_control/share/robotic_arms_control/launch
+copying launch/gazebo_bringup_ur5.launch.py -> /root/freefleet_ws/UR5_AMR_CL_4/install/robotic_arms_control/share/robotic_arms_control/launch
+copying launch/rviz_bringup.launch.py -> /root/freefleet_ws/UR5_AMR_CL_4/install/robotic_arms_control/share/robotic_arms_control/launch
+copying launch/controller_spawner_ur5.launch.py -> /root/freefleet_ws/UR5_AMR_CL_4/install/robotic_arms_control/share/robotic_arms_control/launch
+copying urdf/ur5.urdf -> /root/freefleet_ws/UR5_AMR_CL_4/install/robotic_arms_control/share/robotic_arms_control/urdf
+copying urdf/ur51.urdf -> /root/freefleet_ws/UR5_AMR_CL_4/install/robotic_arms_control/share/robotic_arms_control/urdf
+copying urdf/ur5jointlimitedrobot.urdf -> /root/freefleet_ws/UR5_AMR_CL_4/install/robotic_arms_control/share/robotic_arms_control/urdf
+copying urdf/ur5robot.urdf -> /root/freefleet_ws/UR5_AMR_CL_4/install/robotic_arms_control/share/robotic_arms_control/urdf
+copying config/ur5_itc_controller.yaml -> /root/freefleet_ws/UR5_AMR_CL_4/install/robotic_arms_control/share/robotic_arms_control/config
+copying config/ur5_pos_controller.yaml -> /root/freefleet_ws/UR5_AMR_CL_4/install/robotic_arms_control/share/robotic_arms_control/config
+running install_egg_info
+Copying ../../build/robotic_arms_control/robotic_arms_control.egg-info to /root/freefleet_ws/UR5_AMR_CL_4/install/robotic_arms_control/lib/python3.12/site-packages/robotic_arms_control-0.0.0-py3.12.egg-info
+running install_scripts
+Installing joint_state_controller_test script to /root/freefleet_ws/UR5_AMR_CL_4/install/robotic_arms_control/lib/robotic_arms_control
+Installing jtc_multi_goals script to /root/freefleet_ws/UR5_AMR_CL_4/install/robotic_arms_control/lib/robotic_arms_control
+Installing kinematic_solver_IK script to /root/freefleet_ws/UR5_AMR_CL_4/install/robotic_arms_control/lib/robotic_arms_control
+Installing transform_publisher script to /root/freefleet_ws/UR5_AMR_CL_4/install/robotic_arms_control/lib/robotic_arms_control
+writing list of installed files to '/root/freefleet_ws/UR5_AMR_CL_4/build/robotic_arms_control/install.log'
